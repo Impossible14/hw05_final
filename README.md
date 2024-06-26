@@ -9,7 +9,7 @@ git clone git@github.com:Impossible14/hw05_final.git
 ```
 
 ```
-cd yatube
+cd hm05_final/
 ```
 
 Cоздать и активировать виртуальное окружение:
@@ -29,9 +29,18 @@ pip install -r requirements.txt
 ```
 
 Выполнить миграции:
+```
+cd yatube/
+```
 
 ```
 python manage.py migrate
+```
+
+Запустить тесты и проверить работоспособность сайта:
+
+```
+python manage.py test
 ```
 
 Запустить проект:
